@@ -1,9 +1,14 @@
-import Image from "next/image";
+import HeroSection from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div className="grid-background">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <HeroSection />
+      <section>
+        <div>
+          <h2>Powerful Features for Your Career Growth</h2>
+        </div>
+      </section>
+    </>
   );
 }
